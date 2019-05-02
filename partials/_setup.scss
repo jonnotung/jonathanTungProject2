@@ -6,19 +6,64 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 
 .visuallyHidden:not(:focus):not(:active) { position: absolute; width: 1px; height: 1px; margin: -1px;border: 0;padding: 0;white-space: nowrap;clip-path: inset(100%);clip: rect(00 0 0);overflow: hidden;}
 
-//------------------------
+//--------------------------
 // remove default stylings
-//------------------------
+//--------------------------
 * {
     margin: 0;
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+//-------------------------
+// common wrapper setup
 //--------------------------
+.outerWrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.innerWrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+//---------------------------
 // common typography styles
-//--------------------------
+//---------------------------
 body {
     font-size: 125%;
+}
+
+h1,
+h2,
+h3 {
+    color: $marigold;
+    font-family: $dokdo;
+}
+
+h1 {
+    font-size: $headingHeader;
+    line-height: 75px;
+}
+
+h2 {
+    font-size: $logoFont;
+}
+
+h3 {
+    font-size: $subHeading;
+}
+
+a {
+    color: $iceblue;
 }
 
 

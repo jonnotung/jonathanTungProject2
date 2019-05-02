@@ -15,59 +15,63 @@
 <body class="contactUs">
     <header>
         <div class="outerWrapper">
-            <nav>
-                <h2>Mindn'Soul</h2>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#aboutUs">About</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <h1>Get in touch</h1>
+            <div class="innerWrapper">
+                <nav>
+                    <h2>Mindn'Soul</h2>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#aboutUs">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <h1>Get in touch</h1>
+            </div>
         </div>
     </header>
 
     <section class="contactFormSection">
-        <class class="outerWrapper">
-            <div class="formBackground">
-                <form action="post">
-                    <fieldset>
-                        <input type="text" id="contactUsName" value="Name">
-                        <label for="contactUsName" class="visuallyHidden">Enter your name</label>
-                        <input type="email" id="contactUsEmail" value="Email address">
-                        <label for="contactUsEmail" class="visuallyHidden">Enter your email</label>
-                    </fieldset>
-                    <textarea name="blogContent" id="blogContent" cols="30" rows="10"></textarea>
-                    <button>Post comment</button>
-                </form>
+        <div class="outerWrapper">
+            <div class="innerWrapper">
+                <div class="formBackground">
+                    <form action="post">
+                        <fieldset>
+                            <input type="text" id="contactUsName" value="Name">
+                            <label for="contactUsName" class="visuallyHidden">Enter your name</label>
+                            <input type="email" id="contactUsEmail" value="Email address">
+                            <label for="contactUsEmail" class="visuallyHidden">Enter your email</label>
+                        </fieldset>
+                        <textarea name="blogContent" id="blogContent" cols="30" rows="10"></textarea>
+                        <button>Post comment</button>
+                    </form>
+                </div>
+                <div class="contactSidebar">
+                    <ul class="contactSocialIcons">
+                        <li>
+                            <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                            <span class="sr-only">Our facebook</span>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                            <span class="sr-only">Our instagram</span>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                            <span class="sr-only">Our twitter</span>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+                            <span class="sr-only">Our whatsapp</span>
+                        </li>
+                    </ul>
+                    <p>info@email.com</p>
+                    <p>123 - 456- 7890</p>
+                    <p>123 Queen Street West,</p>
+                    <p>Toronto, Ontario</p>
+                    <p>M5V2D5</p>
+                </div>
             </div>
-            <div class="contactSidebar">
-                <ul class="contactSocialIcons">
-                    <li>
-                        <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-                        <span class="sr-only">Our facebook</span>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                        <span class="sr-only">Our instagram</span>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                        <span class="sr-only">Our twitter</span>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
-                        <span class="sr-only">Our whatsapp</span>
-                    </li>
-                </ul>
-                <p>info@email.com</p>
-                <p>123 - 456- 7890</p>
-                <p>123 Queen Street West,</p>
-                <p>Toronto, Ontario</p>
-                <p>M5V2D5</p>
-            </div>
-        </class>
+        </div>
     </section>
     
     <footer>

@@ -1,0 +1,27 @@
+//---------------------------
+// home page header styles
+//--------------------------
+
+.home header {
+    background: url("../assets/home-image-1.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+header h4 {
+    font-family: $lato;
+    font-size: $subHeading;
+    color: $iceblue;
+    text-transform: lowercase;
+    line-height: 58px;
+    letter-spacing: 4.9px;
+    margin-left: 15px;
+}
+
+.home .headerOffsetImage {
+    height: 640px;
+    width: 695px;
+    background: url("../assets/square-header-image.jpg");
+    position: absolute;
+}

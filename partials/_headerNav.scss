@@ -1,0 +1,30 @@
+//---------------------------------------
+//Header nav styles common across pages
+//--------------------------------------
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+nav h2 {
+    display: block;
+    width: 20%;
+}
+
+nav ul {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    width: 25%;
+}
+
+nav a {
+    font-family: $lato;
+    font-weight: bold;
+}

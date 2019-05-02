@@ -184,7 +184,113 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.outerWrapper {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.innerWrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
 body {
   font-size: 125%;
+}
+
+h1,
+h2,
+h3 {
+  color: #ffc600;
+  font-family: "Dokdo", cursive;
+}
+
+h1 {
+  font-size: 5.75rem;
+  line-height: 75px;
+}
+
+h2 {
+  font-size: 2.075rem;
+}
+
+h3 {
+  font-size: 2.25rem;
+}
+
+a {
+  color: #fafffe;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+}
+
+nav h2 {
+  display: block;
+  width: 20%;
+}
+
+nav ul {
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav li {
+  width: 25%;
+}
+
+nav a {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.home header {
+  background: url("../assets/home-image-1.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+header h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 2.25rem;
+  color: #fafffe;
+  text-transform: lowercase;
+  line-height: 58px;
+  letter-spacing: 4.9px;
+  margin-left: 15px;
+}
+
+.home .headerOffsetImage {
+  height: 640px;
+  width: 695px;
+  background: url("../assets/square-header-image.jpg");
+  position: absolute;
 }
 /*# sourceMappingURL=style.css.map */
