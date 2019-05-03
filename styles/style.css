@@ -301,10 +301,10 @@ header h4 {
 .home .headerOffsetImage {
   height: 640px;
   width: 695px;
-  background: rgba(0, 150, 150, 0.4);
+  background: url("../assets/square-header-image.jpg");
   position: absolute;
   left: 0;
-  bottom: -300px;
+  bottom: -240px;
 }
 
 .newAdventure {
@@ -325,7 +325,7 @@ header h4 {
 
 .newAdventure .textSection,
 .newAdventure .imageSection {
-  margin: 350px 0 100px 0;
+  margin: 325px 0 100px 0;
 }
 
 .newAdventure .textSection {
@@ -354,5 +354,80 @@ header h4 {
   font-family: "Dokdo", cursive;
   font-size: 2rem;
   padding: 5px 10px;
+}
+
+.gallery {
+  background: #262725;
+  padding: 100px 0;
+}
+
+.gallery .innerWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gallery img {
+  width: calc((100% / 3) - 30px);
+}
+
+.aboutUs {
+  background: #1e140e;
+  padding: 100px 0;
+}
+
+.aboutUs .innerWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.aboutUsSections {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fafffe;
+  font-family: "Lato", sans-serif;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+
+.aboutUs a {
+  display: block;
+  color: #ffc600;
+  font-family: "Dokdo", cursive;
+  font-size: 2rem;
+}
+
+.aboutUs i {
+  color: #fafffe;
+  display: inline-block;
+  background: #555f02;
+  text-align: center;
+  font-size: 1.75rem;
+  line-height: 35px;
+  letter-spacing: 0;
+  width: 56px;
+  height: 56px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.aboutUs p {
+  display: block;
+  width: calc(100% - 60px);
+  font-size: 1rem;
 }
 /*# sourceMappingURL=style.css.map */

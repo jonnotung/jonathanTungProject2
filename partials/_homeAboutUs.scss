@@ -1,0 +1,56 @@
+//---------------------------
+// home page about us section
+//---------------------------
+
+.aboutUs {
+    background: $camoGreen;
+    padding: 100px 0;
+}
+
+.aboutUs .innerWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.aboutUsSections {
+    width: 50%;
+    display: flex;
+
+    color: $iceblue;
+    font-family: $lato;
+    line-height: 32px;
+    letter-spacing: 2px;
+}
+
+// .iconDot {
+//     background: $mudGreen;
+// }
+
+.aboutUs a {
+    display: block;
+    color: $marigold;
+    font-family: $dokdo;
+    font-size: $sectionHeadings;
+}
+
+.aboutUs i {
+    color: $iceblue;
+    display: inline-block;
+    background: $mudGreen;
+    text-align: center;
+    font-size: 1.75rem;
+    //styles for dot around icon
+    line-height: 35px;
+    letter-spacing: 0;
+    width: 56px;
+    height: 56px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.aboutUs p {
+    display: block;
+    width: calc(100% - 60px);
+    font-size: 1rem;
+}

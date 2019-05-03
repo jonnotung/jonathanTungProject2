@@ -1,0 +1,18 @@
+//-----------------------------
+// home page gallery section
+//-----------------------------
+
+.gallery {
+    background: $charcoal;
+    padding: 100px 0;
+}
+
+.gallery .innerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery img {
+    width: calc((100% / 3) - 30px);
+}
