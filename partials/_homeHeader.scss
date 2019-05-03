@@ -2,11 +2,6 @@
 // home page header styles
 //--------------------------
 
-header .outerWrapper {
-    position: relative;
-    height: 100%;
-}
-
 .home header {
     background: url("../assets/home-image-1.jpg");
     background-size: cover;
@@ -14,12 +9,17 @@ header .outerWrapper {
     height: 100vh;
 }
 
+.home header .outerWrapper {
+    position: relative;
+    height: 100%;
+}
+
 .headerTitle {
     width: 40%;
     margin: 15% auto auto 50%;
 }
 
-header h4 {
+.home header h4 {
     font-family: $lato;
     font-size: $subHeading;
     color: $iceblue;
@@ -31,12 +31,13 @@ header h4 {
 
 .home .headerOffsetImage {
     width: 45%;
-    height: 640px;
+    height: 80vh;
     
     // background: rgba(0, 150, 150, 0.4);
     background: url("../assets/square-header-image.jpg");
     background-size: cover;
     background-position: center center;
+    // transform: translateY(200);
     position: absolute;
     left: 0;
     bottom: -240px;

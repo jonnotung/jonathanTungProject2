@@ -27,12 +27,11 @@
 }
 
 .newAdventure img {
-    position: relative;
     width: 100%;
-    top: -15px;
-    right: -7%;
-    // top: -20px;
-    // right: -20px;
+    transform: translate(7.5%, -7.5%);
+    // position: relative;
+    // top: -15px;
+    // right: -7%;
 }
 
 .newAdventure p {
