@@ -276,6 +276,20 @@ nav a {
   display: none;
 }
 
+footer {
+  background: #262725;
+  padding: 5px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  line-height: 32px;
+  letter-spacing: 2px;
+  color: #fafffe;
+}
+
 header .outerWrapper {
   position: relative;
   height: 100%;
@@ -352,7 +366,10 @@ header h4 {
 }
 
 .newAdventure p {
+  font-size: 1rem;
   font-family: "Lato", sans-serif;
+  line-height: 32px;
+  letter-spacing: 2px;
   color: #fafffe;
   margin-bottom: 30px;
 }
@@ -473,7 +490,6 @@ header h4 {
   line-height: 32px;
   letter-spacing: 2px;
   color: #fafffe;
-  font-weight: lighter;
   margin-bottom: 15px;
 }
 
@@ -548,5 +564,54 @@ header h4 {
 .section2 .imgSection img {
   -webkit-transform: translate(5%, -5%);
           transform: translate(5%, -5%);
+}
+
+.dividerImage {
+  width: 100%;
+  height: 50vh;
+  background: url(../assets/banner-image.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.freeTrials {
+  background: #1e140e;
+  padding: 200px 0;
+}
+
+.freeTrials .innerWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.freeTrials p {
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  line-height: 32px;
+  letter-spacing: 2px;
+  color: #fafffe;
+  display: block;
+  width: 90%;
+  text-align: justify;
+  margin: 25px 0;
+}
+
+.freeTrials a {
+  background: #555f02;
+  font-family: "Dokdo", cursive;
+  font-size: 2rem;
+  padding: 5px 10px;
+  font-weight: normal;
 }
 /*# sourceMappingURL=style.css.map */

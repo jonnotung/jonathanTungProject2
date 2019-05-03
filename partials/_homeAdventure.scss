@@ -36,8 +36,7 @@
 }
 
 .newAdventure p {
-    font-family: $lato;
-    color: $iceblue;
+    @include paragraphText();
     margin-bottom: 30px;
 }
 

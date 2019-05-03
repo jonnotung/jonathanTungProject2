@@ -32,3 +32,18 @@ nav a {
 .hamburger {
     display: none;
 }
+
+
+//----------------------------------------------------------------
+//-------------- common copyright footer styles--------------------
+//------------------------------------------------------------------
+
+footer {
+    background: $charcoal;
+    padding: 5px 0;
+    text-align: center;
+}
+
+footer p {
+    @include paragraphText();
+}
