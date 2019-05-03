@@ -15,7 +15,8 @@ header .outerWrapper {
 }
 
 .headerTitle {
-    margin: 25% auto auto 52%;
+    width: 40%;
+    margin: 15% auto auto 50%;
 }
 
 header h4 {
@@ -29,10 +30,13 @@ header h4 {
 }
 
 .home .headerOffsetImage {
+    width: 45%;
     height: 640px;
-    width: 695px;
+    
     // background: rgba(0, 150, 150, 0.4);
     background: url("../assets/square-header-image.jpg");
+    background-size: cover;
+    background-position: center center;
     position: absolute;
     left: 0;
     bottom: -240px;

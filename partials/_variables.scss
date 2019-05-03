@@ -26,3 +26,23 @@ $sectionHeadings: 2rem;
 //-----------------
 $dokdo: 'Dokdo', cursive;
 $lato: 'Lato', sans-serif;
+
+//-----------------------------------------
+// ---------------MIXINS-------------------
+//-----------------------------------------
+
+@mixin linkButton() {
+    background: $mudGreen;
+    font-family: $dokdo;
+    font-size: $sectionHeadings;
+    padding: 5px 10px;
+    font-weight: normal;
+}
+
+@mixin paragraphText() {
+    font-size: 1rem;
+    font-family: $lato;
+    line-height: 32px;
+    letter-spacing: 2px;
+    color: $iceblue;
+}

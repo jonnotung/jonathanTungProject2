@@ -22,14 +22,17 @@
 }
 
 .newAdventure .imageSection {
-    width: 25%;
+    min-width: 25%;
     background: $mudGreen;
 }
 
 .newAdventure img {
     position: relative;
-    top: -20px;
-    right: -20px;
+    width: 100%;
+    top: -15px;
+    right: -7%;
+    // top: -20px;
+    // right: -20px;
 }
 
 .newAdventure p {
@@ -39,8 +42,5 @@
 }
 
 .newAdventure a {
-    background: $mudGreen;
-    font-family: $dokdo;
-    font-size: $sectionHeadings;
-    padding: 5px 10px;
+    @include linkButton();
 }

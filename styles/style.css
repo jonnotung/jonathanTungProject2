@@ -272,6 +272,10 @@ nav a {
   font-weight: bold;
 }
 
+.hamburger {
+  display: none;
+}
+
 header .outerWrapper {
   position: relative;
   height: 100%;
@@ -285,7 +289,8 @@ header .outerWrapper {
 }
 
 .headerTitle {
-  margin: 25% auto auto 52%;
+  width: 40%;
+  margin: 15% auto auto 50%;
 }
 
 header h4 {
@@ -299,9 +304,11 @@ header h4 {
 }
 
 .home .headerOffsetImage {
+  width: 45%;
   height: 640px;
-  width: 695px;
   background: url("../assets/square-header-image.jpg");
+  background-size: cover;
+  background-position: center center;
   position: absolute;
   left: 0;
   bottom: -240px;
@@ -333,14 +340,15 @@ header h4 {
 }
 
 .newAdventure .imageSection {
-  width: 25%;
+  min-width: 25%;
   background: #555f02;
 }
 
 .newAdventure img {
   position: relative;
-  top: -20px;
-  right: -20px;
+  width: 100%;
+  top: -15px;
+  right: -7%;
 }
 
 .newAdventure p {
@@ -354,6 +362,7 @@ header h4 {
   font-family: "Dokdo", cursive;
   font-size: 2rem;
   padding: 5px 10px;
+  font-weight: normal;
 }
 
 .gallery {
@@ -411,6 +420,10 @@ header h4 {
   font-size: 2rem;
 }
 
+.iconDot {
+  margin-right: 25px;
+}
+
 .aboutUs i {
   color: #fafffe;
   display: inline-block;
@@ -429,5 +442,111 @@ header h4 {
   display: block;
   width: calc(100% - 60px);
   font-size: 1rem;
+}
+
+.aboutUsSections .textSection {
+  margin-top: 15px;
+}
+
+.aboutUsSections .textSection a {
+  margin-bottom: 25px;
+}
+
+.programs {
+  background: #262725;
+  padding: 0px 0 50px 0;
+}
+
+.programSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.programs p {
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  line-height: 32px;
+  letter-spacing: 2px;
+  color: #fafffe;
+  font-weight: lighter;
+  margin-bottom: 15px;
+}
+
+.programs a {
+  background: #555f02;
+  font-family: "Dokdo", cursive;
+  font-size: 2rem;
+  padding: 5px 10px;
+  font-weight: normal;
+}
+
+.programSection .imgSection {
+  width: 50%;
+  background: #ffc600;
+}
+
+.programSection .imgSection img {
+  width: 100%;
+}
+
+.programSection .textSection {
+  width: 40%;
+}
+
+.section1 {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.section2 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin: 0;
+}
+
+.section2 .textSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section2 h3,
+.section2 a {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  position: relative;
+  right: -10%;
+}
+
+.section1 .imgSection {
+  -webkit-transform: translateX(-20%);
+          transform: translateX(-20%);
+}
+
+.section1 .imgSection img {
+  -webkit-transform: translate(-5%, -5%);
+          transform: translate(-5%, -5%);
+}
+
+.section2 .imgSection {
+  -webkit-transform: translate(20%, 35%);
+          transform: translate(20%, 35%);
+}
+
+.section2 .imgSection img {
+  -webkit-transform: translate(5%, -5%);
+          transform: translate(5%, -5%);
 }
 /*# sourceMappingURL=style.css.map */

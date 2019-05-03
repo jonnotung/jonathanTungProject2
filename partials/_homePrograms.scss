@@ -1,0 +1,77 @@
+//---------------------------
+// home page programs section
+//----------------------------
+
+.programs {
+    background: $charcoal;
+    padding: 0px 0 50px 0;
+}
+
+.programSection {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.programs p {
+    @include paragraphText();
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+.programs a {
+    @include linkButton();
+}
+
+.programSection .imgSection {
+    width: 50%;
+    background: $marigold;
+}
+
+.programSection .imgSection img {
+    width: 100%;
+}
+
+.programSection .textSection {
+    width: 40%;
+}
+
+.section1 {
+    align-items: flex-end;
+}
+
+.section2 {
+    flex-direction: row-reverse;
+    margin: 0;
+}
+
+.section2 .textSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.section2 h3,
+.section2 a {
+    align-self: flex-end;
+    position: relative;
+    right: -10%
+}
+
+//----------------------------------------
+//position images for aesthetic purposes
+//---------------------------------------
+.section1 .imgSection {
+    transform: translateX(-20%);
+}
+
+.section1 .imgSection img {
+    transform: translate(-5%, -5%);
+}
+
+.section2 .imgSection {
+    transform: translate(20%, 35%);
+}
+
+.section2 .imgSection img {
+    transform: translate(5%, -5%);
+}

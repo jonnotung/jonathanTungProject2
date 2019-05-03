@@ -23,15 +23,15 @@
     letter-spacing: 2px;
 }
 
-// .iconDot {
-//     background: $mudGreen;
-// }
-
 .aboutUs a {
     display: block;
     color: $marigold;
     font-family: $dokdo;
     font-size: $sectionHeadings;
+}
+
+.iconDot {
+    margin-right: 25px;
 }
 
 .aboutUs i {
@@ -53,4 +53,13 @@
     display: block;
     width: calc(100% - 60px);
     font-size: 1rem;
+}
+
+.aboutUsSections .textSection {
+    margin-top: 15px;
+}
+
+.aboutUsSections .textSection a {
+    // margin-top: 25px;
+    margin-bottom: 25px;
 }
