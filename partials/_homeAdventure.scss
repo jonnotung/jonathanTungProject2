@@ -1,0 +1,42 @@
+.newAdventure {
+    background: $camoGreen;
+}
+
+.newAdventure .innerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newAdventure .textSection,
+.newAdventure .imageSection {
+    margin: 350px 0 100px 0;
+}
+
+.newAdventure .textSection {
+    width: 60%;
+}
+
+.newAdventure .imageSection {
+    width: 25%;
+    background: $mudGreen;
+}
+
+.newAdventure img {
+    position: relative;
+    top: -20px;
+    right: -20px;
+}
+
+.newAdventure p {
+    font-family: $lato;
+    color: $iceblue;
+    margin-bottom: 30px;
+}
+
+.newAdventure a {
+    background: $mudGreen;
+    font-family: $dokdo;
+    font-size: $sectionHeadings;
+    padding: 5px 10px;
+}

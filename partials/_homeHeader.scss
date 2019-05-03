@@ -2,11 +2,20 @@
 // home page header styles
 //--------------------------
 
+header .outerWrapper {
+    position: relative;
+    height: 100%;
+}
+
 .home header {
     background: url("../assets/home-image-1.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
+}
+
+.headerTitle {
+    margin: 25% auto auto 52%;
 }
 
 header h4 {
@@ -22,6 +31,9 @@ header h4 {
 .home .headerOffsetImage {
     height: 640px;
     width: 695px;
-    background: url("../assets/square-header-image.jpg");
+    background: rgba(0, 150, 150, 0.4);
+    // background: url("../assets/square-header-image.jpg");
     position: absolute;
+    left: 0;
+    bottom: -300px;
 }

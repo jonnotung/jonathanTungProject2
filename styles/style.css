@@ -224,6 +224,8 @@ h2 {
 
 h3 {
   font-size: 2.25rem;
+  line-height: 58px;
+  letter-spacing: 4.9px;
 }
 
 a {
@@ -270,11 +272,20 @@ nav a {
   font-weight: bold;
 }
 
+header .outerWrapper {
+  position: relative;
+  height: 100%;
+}
+
 .home header {
   background: url("../assets/home-image-1.jpg");
   background-size: cover;
   background-position: center center;
   height: 100vh;
+}
+
+.headerTitle {
+  margin: 25% auto auto 52%;
 }
 
 header h4 {
@@ -290,7 +301,58 @@ header h4 {
 .home .headerOffsetImage {
   height: 640px;
   width: 695px;
-  background: url("../assets/square-header-image.jpg");
+  background: rgba(0, 150, 150, 0.4);
   position: absolute;
+  left: 0;
+  bottom: -300px;
+}
+
+.newAdventure {
+  background: #1e140e;
+}
+
+.newAdventure .innerWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.newAdventure .textSection,
+.newAdventure .imageSection {
+  margin: 350px 0 100px 0;
+}
+
+.newAdventure .textSection {
+  width: 60%;
+}
+
+.newAdventure .imageSection {
+  width: 25%;
+  background: #555f02;
+}
+
+.newAdventure img {
+  position: relative;
+  top: -20px;
+  right: -20px;
+}
+
+.newAdventure p {
+  font-family: "Lato", sans-serif;
+  color: #fafffe;
+  margin-bottom: 30px;
+}
+
+.newAdventure a {
+  background: #555f02;
+  font-family: "Dokdo", cursive;
+  font-size: 2rem;
+  padding: 5px 10px;
 }
 /*# sourceMappingURL=style.css.map */
