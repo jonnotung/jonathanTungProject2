@@ -36,14 +36,16 @@
             <div class="innerWrapper">
                 <div class="formBackground">
                     <form action="post">
-                        <fieldset>
-                            <input type="text" id="contactUsName" value="Name">
+                        <fieldset class="contactFields">
+                            <input type="text" id="contactUsName" placeholder="Name">
                             <label for="contactUsName" class="visuallyHidden">Enter your name</label>
-                            <input type="email" id="contactUsEmail" value="Email address">
+                            <input type="email" id="contactUsEmail" placeholder="Email address">
                             <label for="contactUsEmail" class="visuallyHidden">Enter your email</label>
                         </fieldset>
-                        <textarea name="blogContent" id="blogContent" cols="30" rows="10"></textarea>
-                        <button>Post comment</button>
+                        <fieldset class="contactSubmit">
+                            <textarea name="blogContent" id="blogContent" cols="30" rows="10" placeholder="Message"></textarea>
+                            <button>Post comment</button>
+                        </fieldset>
                     </form>
                 </div>
                 <div class="contactSidebar">

@@ -22,6 +22,10 @@ li {
     list-style: none;
 }
 
+fieldset {
+    border: none;
+}
+
 //-------------------------
 // common wrapper setup
 //--------------------------
@@ -67,5 +71,14 @@ h3 {
 a {
     color: $iceblue;
 }
+
+// common input field placeholder styling
+textarea::placeholder,
+input::placeholder {
+    color: $iceblue;
+    opacity: 1;
+}
+
+
 
 

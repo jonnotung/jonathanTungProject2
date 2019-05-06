@@ -13,17 +13,11 @@
 .makePost fieldset {
     display: flex;
     justify-content: space-between;
-    border: none;
 }
 
 .makePost input[type="text"],
 .makePost input[type="email"] {
-    width: 47%;
-    color: $iceblue;
-    border: none;
-    background: $camoGreen;
-    border-bottom: 2px solid $marigold;
-    padding: 20px 30px;
+    @include inputFields($camoGreen);
 }
 
 .makePost fieldset.submit {
@@ -32,21 +26,11 @@
 }
 
 .makePost textarea {
-    width: 100%;
-    padding: 20px 30px;
-    border: 2px solid $marigold;
-    background: $camoGreen;
-}
-
-.makePost textarea::placeholder {
-    color: $iceblue;
-    opacity: 1;
+    @include textArea($camoGreen);
 }
 
 .makePost button {
     margin-top: 25px;
     width: 100%;
     @include linkButton();
-    border: none;
-    color: $iceblue;
 }

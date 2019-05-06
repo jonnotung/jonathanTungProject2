@@ -31,6 +31,7 @@ nav a {
 
 .hamburger {
     display: none;
+    color: $iceblue;
 }
 
 
@@ -46,4 +47,26 @@ footer {
 
 footer p {
     @include paragraphText();
+}
+
+//----------------------------------------------------------
+//------media queries for responsive resizing of nav-------
+//---------------------------------------------------------
+@media (max-width: 700px) {
+    nav ul {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: $subHeading;
+        position: absolute;
+        right: 50px;
+        top: 25px;
+    }
+
+    nav h2 {
+        display: none;
+    }
+
 }

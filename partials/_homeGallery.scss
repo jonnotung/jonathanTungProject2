@@ -16,3 +16,20 @@
 .gallery img {
     width: calc((100% / 3) - 30px);
 }
+
+
+//stack images for responsive
+@media (max-width: 600px) {
+    .gallery .innerWrapper {
+        flex-direction: column;
+    }
+
+    .gallery img {
+        width: 75%;
+        margin-bottom: 40px;
+    }
+
+    .gallery img:last-child {
+        margin-bottom: 0;
+    }
+}
