@@ -71,10 +71,6 @@
 @media (max-width: 700px) {
     //flex header content to center
     .home header .innerWrapper {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         height: 100%;
     }
 
@@ -84,7 +80,8 @@
     }
 
     .headerTitle {
-        margin: 0;
+        text-align: center;
+        margin: 20% 0 auto 0;
     }
 }
 
