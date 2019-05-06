@@ -1,0 +1,46 @@
+//----------------------------------------
+//------blog page comments section styles---
+//-----------------------------------------
+
+h4 {
+    font-family: $dokdo;
+    color: $iceblue;
+    font-size: $subHeading;
+}
+
+.comments {
+    background: $camoGreen;
+}
+
+.comment {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comments .innerWrapper {
+    width: 90%;
+}
+
+.comment p {
+    @include paragraphText();
+}
+
+.comment h6 {
+    @include paragraphText();
+    color: $marigold;
+}
+
+.commentText {
+    width: 81%;
+}
+
+.commentImage {
+    width: 12%;
+    
+}
+
+.commentImage img {
+    width: 100%;
+    
+}
