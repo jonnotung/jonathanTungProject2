@@ -800,4 +800,77 @@ h4 {
 .makePost {
   background: #1e140e;
 }
+
+.makePost form {
+  width: 60%;
+}
+
+.makePost fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: none;
+}
+
+.makePost input[type="text"],
+.makePost input[type="email"] {
+  width: 47%;
+  color: #fafffe;
+  border: none;
+  background: #1e140e;
+  border-bottom: 2px solid #ffc600;
+  padding: 20px 30px;
+}
+
+.makePost fieldset.submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.makePost textarea {
+  width: 100%;
+  padding: 20px 30px;
+  border: 2px solid #ffc600;
+  background: #1e140e;
+}
+
+.makePost textarea::-webkit-input-placeholder {
+  color: #fafffe;
+  opacity: 1;
+}
+
+.makePost textarea:-ms-input-placeholder {
+  color: #fafffe;
+  opacity: 1;
+}
+
+.makePost textarea::-ms-input-placeholder {
+  color: #fafffe;
+  opacity: 1;
+}
+
+.makePost textarea::placeholder {
+  color: #fafffe;
+  opacity: 1;
+}
+
+.makePost button {
+  margin-top: 25px;
+  width: 100%;
+  background: #555f02;
+  font-family: "Dokdo", cursive;
+  font-size: 2rem;
+  padding: 5px 10px;
+  font-weight: normal;
+  border: none;
+  color: #fafffe;
+}
 /*# sourceMappingURL=style.css.map */
