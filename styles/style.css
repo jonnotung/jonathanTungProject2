@@ -1,3 +1,4 @@
+@charset "UTF-8";
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block;
 }
@@ -614,11 +615,15 @@ footer p {
   font-weight: normal;
 }
 
+.blog .innerWrapper {
+  width: 90%;
+}
+
 .blog header {
   background: url(../assets/blog-image-1.jpg);
   background-size: cover;
   background-position: center center;
-  height: 75vh;
+  height: 55vh;
 }
 
 .blog h1 {
@@ -628,5 +633,244 @@ footer p {
 
 .blogPostSection {
   background: #1e140e;
+}
+
+.blogPostSection .innerWrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blogPostSection p,
+.blogPostSection h6 {
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  line-height: 32px;
+  letter-spacing: 2px;
+  color: #fafffe;
+}
+
+.blogPostSection p {
+  margin-bottom: 10px;
+}
+
+.blogPostSection h6 {
+  font-weight: normal;
+  font-style: italic;
+}
+
+.blog h3 {
+  margin-top: 25px;
+}
+
+.blogPostSection a {
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  line-height: 32px;
+  letter-spacing: 2px;
+  color: #fafffe;
+}
+
+.blog article {
+  width: 60%;
+  padding-bottom: 50px;
+  border: 4px #555f02 solid;
+  border-top: none;
+  border-left: none;
+  -webkit-transform: translateY(-10%);
+          transform: translateY(-10%);
+}
+
+.blog article p:last-child {
+  margin-bottom: 50px;
+}
+
+.blog .textSection {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.blog .headerOffsetImage {
+  background: #555f02;
+  width: 95%;
+  margin: 0 0 0 auto;
+}
+
+.blog .headerOffsetImage img {
+  width: 100%;
+  -webkit-transform: translate(-3%, -3%);
+          transform: translate(-3%, -3%);
+}
+
+aside {
+  width: 30%;
+  background: #555f02;
+  height: 100%;
+  margin-top: 150px;
+  padding: 25px 0 0 0;
+}
+
+aside img {
+  width: 95%;
+  display: inline-block;
+  -webkit-transform: translate(5%, -10%);
+          transform: translate(5%, -10%);
+}
+
+aside p,
+aside ul {
+  margin-left: 25px;
+}
+
+aside ul {
+  margin-bottom: 25px;
+}
+
+.blogPostSection li::before {
+  content: "•";
+  font-weight: bold;
+  color: #ffc600;
+  margin: 0 10px;
+}
+
+.blogPostSection h5 {
+  font-family: "Dokdo", cursive;
+  color: #fafffe;
+  font-size: 2rem;
+  margin: 15px 0 20px 25px;
+}
+
+h4 {
+  font-family: "Dokdo", cursive;
+  color: #fafffe;
+  font-size: 2.25rem;
+}
+
+.comments {
+  background: #1e140e;
+}
+
+.comment {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.comments .innerWrapper {
+  width: 90%;
+}
+
+.comment p {
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  line-height: 32px;
+  letter-spacing: 2px;
+  color: #fafffe;
+}
+
+.comment h6 {
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  line-height: 32px;
+  letter-spacing: 2px;
+  color: #fafffe;
+  color: #ffc600;
+}
+
+.commentText {
+  width: 81%;
+}
+
+.commentImage {
+  width: 12%;
+}
+
+.commentImage img {
+  width: 100%;
+}
+
+.makePost {
+  background: #1e140e;
+}
+
+.makePost form {
+  width: 60%;
+}
+
+.makePost fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: none;
+}
+
+.makePost input[type="text"],
+.makePost input[type="email"] {
+  width: 47%;
+  color: #fafffe;
+  border: none;
+  background: #1e140e;
+  border-bottom: 2px solid #ffc600;
+  padding: 20px 30px;
+}
+
+.makePost fieldset.submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.makePost textarea {
+  width: 100%;
+  padding: 20px 30px;
+  border: 2px solid #ffc600;
+  background: #1e140e;
+}
+
+.makePost textarea::-webkit-input-placeholder {
+  color: #fafffe;
+  opacity: 1;
+}
+
+.makePost textarea:-ms-input-placeholder {
+  color: #fafffe;
+  opacity: 1;
+}
+
+.makePost textarea::-ms-input-placeholder {
+  color: #fafffe;
+  opacity: 1;
+}
+
+.makePost textarea::placeholder {
+  color: #fafffe;
+  opacity: 1;
+}
+
+.makePost button {
+  margin-top: 25px;
+  width: 100%;
+  background: #555f02;
+  font-family: "Dokdo", cursive;
+  font-size: 2rem;
+  padding: 5px 10px;
+  font-weight: normal;
+  border: none;
+  color: #fafffe;
 }
 /*# sourceMappingURL=style.css.map */

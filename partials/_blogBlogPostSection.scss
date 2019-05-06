@@ -1,7 +1,122 @@
+<<<<<<< HEAD
 //--------------------------------------
 // blog page blog post section styles
 //--------------------------------------
 
+=======
+//---------------------------
+// blog post section styles
+//---------------------------
+>>>>>>> origin/master
 .blogPostSection {
     background: $camoGreen;
+    // max-height: auto;
 }
+
+.blogPostSection .outerWrapper {
+    
+    // max-height: auto;
+}
+
+
+.blogPostSection .innerWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    // max-height: auto;
+}
+
+.blogPostSection p, 
+.blogPostSection h6 {
+    @include paragraphText();
+}
+
+.blogPostSection p {
+    margin-bottom: 10px;
+}
+
+.blogPostSection h6 {
+    font-weight: normal;
+    font-style: italic;
+}
+
+.blog h3 {
+    margin-top: 25px;
+}
+
+.blogPostSection a {
+    @include paragraphText();
+}
+
+.blog article {
+    width: 60%;
+    padding-bottom: 50px;
+    border: 4px $mudGreen solid;
+    border-top: none;
+    border-left: none;
+    transform: translateY(-10%);
+}
+
+.blog article p:last-child {
+    margin-bottom: 50px;
+}
+
+.blog .textSection {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.blog .headerOffsetImage {
+    background: $mudGreen;
+    width: 95%;
+    margin: 0 0 0 auto;
+}
+
+.blog .headerOffsetImage img {
+    width: 100%;
+    transform: translate(-3%, -3%);
+}
+
+//aside section styles
+
+aside {
+    width: 30%;
+    background: $mudGreen;
+    //make aside height align to content
+    height: 100%;
+    margin-top: 150px;
+    padding: 25px 0 0 0;
+}
+ 
+aside img {
+    width: 95%;
+    display: inline-block;
+    transform: translate(5%, -10%);
+}
+
+aside p,
+aside ul {
+    margin-left: 25px;
+}
+
+aside ul {
+    margin-bottom: 25px;
+}
+
+// change list bullet color
+.blogPostSection li::before {
+    content: "•";
+    font-weight: bold;
+    color: $marigold;
+    margin: 0 10px;
+}
+
+.blogPostSection h5 {
+    font-family: $dokdo;
+    color: $iceblue;
+    font-size: $sectionHeadings;
+    margin: 15px 0 20px 25px;
+}
+
+
+
