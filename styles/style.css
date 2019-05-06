@@ -683,6 +683,7 @@ footer p {
   border-left: none;
   -webkit-transform: translateY(-10%);
           transform: translateY(-10%);
+  margin-bottom: -10%;
 }
 
 .blog article p:last-child {

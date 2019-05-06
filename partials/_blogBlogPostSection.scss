@@ -1,21 +1,9 @@
-<<<<<<< HEAD
 //--------------------------------------
 // blog page blog post section styles
 //--------------------------------------
 
-=======
-//---------------------------
-// blog post section styles
-//---------------------------
->>>>>>> origin/master
 .blogPostSection {
     background: $camoGreen;
-    // max-height: auto;
-}
-
-.blogPostSection .outerWrapper {
-    
-    // max-height: auto;
 }
 
 
@@ -23,7 +11,6 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    // max-height: auto;
 }
 
 .blogPostSection p, 
@@ -55,6 +42,8 @@
     border-top: none;
     border-left: none;
     transform: translateY(-10%);
+    //compensate for translation up
+    margin-bottom: -10%; 
 }
 
 .blog article p:last-child {
