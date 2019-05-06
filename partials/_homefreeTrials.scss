@@ -34,3 +34,30 @@
 .freeTrials a {
     @include linkButton();
 }
+
+//responsive resizing
+@media (max-width: 800px) {
+    //reduce vertical blank space
+    .freeTrials {
+        padding: 75px 0;
+    }
+}
+
+
+@media (max-width: 600px) {
+    //resize divider
+    .dividerImage {
+        height: 200px;
+    }
+
+    .freeTrials p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    //reduce vertical blank space
+    .freeTrials {
+        padding: 50px 0;
+    }
+}
