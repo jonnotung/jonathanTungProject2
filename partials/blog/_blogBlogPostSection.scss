@@ -40,7 +40,7 @@
     border: 4px $mudGreen solid;
     border-top: none;
     border-left: none;
-    transform: translateY(-10%);
+    transform: translateY(-8%);
     //compensate for translation up
     margin-bottom: -7%; 
 }
@@ -65,7 +65,9 @@
     transform: translate(-3%, -3%);
 }
 
+//---------------------
 //aside section styles
+//----------------------
 
 aside {
     width: 30%;
@@ -116,18 +118,10 @@ aside ul {
         margin-bottom: -10%;
     }
     
+    //switch to 
     .blog article {
         transform: translateY(-5%);
     }
-
-    // .blog .textSection {
-    //     width: 65%;
-    //     margin-left: 17.5%;
-    // }
-
-    // aside {
-    //     width: 30%;
-    // }
 }
 
 @media (max-width: 750px) {
@@ -197,8 +191,9 @@ aside ul {
         margin: 10px 0;
     }
 
+    //switch to pixel based shift because longer screens keep messing this up to cover the heading
     .blog article {
-        transform: translateY(-4%);
+        transform: translateY(-50px);
     }
 
     .blogPostSection a {
@@ -220,6 +215,19 @@ aside ul {
 @media(max-width: 400px) {
     .blogPostSection a {
         font-size: 0.9rem;
+    }
+}
+
+//-------------------------------
+//-----landscape phones----------
+//-------------------------------
+@media (max-height: 420px) { 
+    .blog article {
+        transform: translateY(-25px);
+    }
+
+    .blog article.blogPost {
+        margin-bottom: 0px;
     }
 }
 

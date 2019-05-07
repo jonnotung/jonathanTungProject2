@@ -40,9 +40,9 @@
     @include linkButton();
 }
 
-//-----------------------------------------------------------
-//--------media queries for resizing this section-------------
-//-----------------------------------------------------------
+//-------------------------------------
+//-----responsive media queries--------
+//-------------------------------------
 
 @media (max-width: 950px) {
     //reposition content
@@ -52,7 +52,7 @@
     }
 }
 
-//switch to 1 stack content
+//switch to 1 stack layout for content
 @media (max-width: 850px) {
     .newAdventure .textSection {
         display: flex;

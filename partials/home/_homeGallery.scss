@@ -17,9 +17,9 @@
     width: calc((100% / 3) - 30px);
 }
 
-//-------------------------------------------
-//-----stack images for responsive----------
-//-----------------------------------------
+//-------------------------------------
+//-----responsive media queries--------
+//-------------------------------------
 @media (max-width: 600px) {
     .gallery .innerWrapper {
         flex-direction: column;

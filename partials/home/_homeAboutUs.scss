@@ -57,13 +57,12 @@
 }
 
 .aboutUsSections .textSection a {
-    // margin-top: 25px;
     margin-bottom: 25px;
 }
 
-//-------------------------------------------------------------
-//-----------media queries to reposition and resize-----------
-//-----------------------------------------------------------------
+//-------------------------------------
+//-----responsive media queries--------
+//-------------------------------------
 @media (max-width: 920px) {
     //move to one stack layout
     .aboutUs .innerWrapper {

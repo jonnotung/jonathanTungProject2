@@ -35,7 +35,10 @@
     @include linkButton();
 }
 
-//media query to resize content
+//-------------------------------------
+//-----responsive media queries--------
+//-------------------------------------
+
 @media (max-width: 1100px) {
     .makePost form {
         width: 100%;
@@ -56,9 +59,4 @@
     .makePost textarea {
         margin-top: 25px;
     }
-}
-
-//media queries to reposition and resize form/footer
-@media (max-width: 1100px) {
-    
 }

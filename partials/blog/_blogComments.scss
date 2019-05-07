@@ -2,7 +2,7 @@
 //------blog page comments section styles---
 //-----------------------------------------
 
-h4 {
+.comments h4 {
     font-family: $dokdo;
     color: $iceblue;
     font-size: $subHeading;
@@ -49,7 +49,10 @@ h4 {
     
 }
 
-//media query to resize content
+//-------------------------------------
+//-----responsive media queries--------
+//-------------------------------------
+
 @media (max-width: 1100px) {
     .comment {
         width: 100%;
@@ -58,6 +61,10 @@ h4 {
 
 //resize avatars
 @media (max-width: 450px) {
+
+    .comments {
+        padding-top: 20px;
+    }
     .commentText {
         width: 79%;
     }
@@ -65,5 +72,9 @@ h4 {
     .commentImage {
         width: 18%;
         
+    }
+
+    .comments h4 {
+        margin-bottom: 10px;
     }
 }

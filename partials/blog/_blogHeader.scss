@@ -10,7 +10,7 @@
     background: url(../assets/blog-image-1.jpg);
     background-size: cover;
     background-position: center center;
-    height: 600px; 
+    height: 75vh;  
 }
 
 .blog h1 {
@@ -18,7 +18,10 @@
     color: $marigold;
 }
 
-//media querys for resizing
+///-------------------------------------
+//-----responsive media queries--------
+//------------------------------------
+
 @media (max-width: 850px) {
 
     //resize to recenter header background image
@@ -33,7 +36,7 @@
 
 @media (max-width: 700px) {
     //reposition  h1 header
-    h1 {
+    .blog h1 {
         text-align: center;
         margin: 10% 0 auto 0;
     }
@@ -49,7 +52,18 @@
     }
 
     .blog h1 {
-        margin: 35% auto auto auto;
+        margin: 25% auto auto auto;
     }
+}
+
+//-------------------------------
+//-----landscape phones----------
+//-------------------------------
+@media (max-height: 420px) {
+    .blog h1 {
+        margin: 0;
+    }
+
+
 }
 
