@@ -1,0 +1,39 @@
+
+//-----------------------------------------
+// ---------------MIXINS-------------------
+//-----------------------------------------
+
+@mixin linkButton() {
+    background: $mudGreen;
+    font-family: $dokdo;
+    font-size: $sectionHeadings;
+    padding: 5px 10px;
+    font-weight: normal;
+    border: none;
+    color: $iceblue;
+}
+
+@mixin paragraphText() {
+    font-size: 1rem;
+    font-family: $lato;
+    line-height: 32px;
+    letter-spacing: 2px;
+    color: $iceblue;
+}
+
+@mixin textArea($backgroundColor) {
+    width: 100%;
+    padding: 20px 30px;
+    border: 2px solid $marigold;
+    background: $backgroundColor;
+    color: $iceblue;
+}
+
+@mixin inputFields($backGroundColor) {
+    width: 47%;
+    color: $iceblue;
+    border: none;
+    background: $backGroundColor;
+    border-bottom: 2px solid $marigold;
+    padding: 20px 30px;
+}
