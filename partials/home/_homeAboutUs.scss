@@ -1,6 +1,6 @@
-//---------------------------
-// home page about us section
-//---------------------------
+//------------------------------------------------------------------
+//---------------------home page about us section-------------------
+//------------------------------------------------------------------
 
 .aboutUs {
     background: $camoGreen;
@@ -16,11 +16,7 @@
 .aboutUsSections {
     width: 50%;
     display: flex;
-
-    color: $iceblue;
-    font-family: $lato;
-    line-height: 32px;
-    letter-spacing: 2px;
+    @include paragraphText();
 }
 
 .aboutUs a {
@@ -34,6 +30,7 @@
     margin-right: 25px;
 }
 
+//icons
 .aboutUs i {
     color: $iceblue;
     display: inline-block;
@@ -64,7 +61,9 @@
     margin-bottom: 25px;
 }
 
-//media queries to reposition and resize
+//-------------------------------------------------------------
+//-----------media queries to reposition and resize-----------
+//-----------------------------------------------------------------
 @media (max-width: 920px) {
     //move to one stack layout
     .aboutUs .innerWrapper {
@@ -82,12 +81,12 @@
     }
 }
 
-//resize icons
 @media (max-width: 450px) {
-
     .aboutUsSections .textSection {
         margin-top: 0;
     }
+
+    //resize icons
     .aboutUs i {
         font-size: 1.5rem;
         //styles for dot around icon

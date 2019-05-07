@@ -1,6 +1,6 @@
-//------------------------------
-// home page free trials section
-//-------------------------------
+//------------------------------------------------------------
+// ------------home page free trials section------------------
+//------------------------------------------------------------
 
 //full bleed divider image
 .dividerImage {
@@ -35,7 +35,9 @@
     @include linkButton();
 }
 
-//responsive resizing
+//------------------------------------------------
+//-----------responsive resizing------------------
+//------------------------------------------------
 @media (max-width: 800px) {
     //reduce vertical blank space
     .freeTrials {
@@ -47,7 +49,7 @@
 @media (max-width: 600px) {
     //resize divider
     .dividerImage {
-        height: 200px;
+        height: 25vh;
     }
 
     .freeTrials p {

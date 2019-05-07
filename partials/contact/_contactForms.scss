@@ -104,7 +104,6 @@ input::placeholder {
         font-size: $logoFont;
     }
 
-
     //stack input forms
     .contactFields {
         flex-direction: column;
@@ -127,8 +126,9 @@ input::placeholder {
 
 
 @media (max-width: 650px) {
+    //shrink margin below textarea field
     .formBackground {
-        margin-bottom: -200px;
+        margin-bottom: -30%;
     }
 }
 
@@ -136,5 +136,10 @@ input::placeholder {
 @media (max-width: 450px) {
     .contactUs form {
         transform: translate(-7px, -7px);
+    }
+
+    .formBackground {
+        transform: translateY(-30%);
+        margin-bottom: -60px;
     }
 }

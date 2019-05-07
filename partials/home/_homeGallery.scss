@@ -1,6 +1,6 @@
-//-----------------------------
-// home page gallery section
-//-----------------------------
+//------------------------------------------
+// ---------home page gallery section-------
+//-----------------------------------------
 
 .gallery {
     background: $charcoal;
@@ -17,8 +17,9 @@
     width: calc((100% / 3) - 30px);
 }
 
-
-//stack images for responsive
+//-------------------------------------------
+//-----stack images for responsive----------
+//-----------------------------------------
 @media (max-width: 600px) {
     .gallery .innerWrapper {
         flex-direction: column;

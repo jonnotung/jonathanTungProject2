@@ -1,6 +1,6 @@
-//---------------------------
-// home page header styles
-//--------------------------
+//-------------------------------------------------------
+// --------------home page header styles-----------------
+//------------------------------------------------------
 
 .home header {
     background: url("../assets/home-image-1.jpg");
@@ -32,11 +32,9 @@
 .home .headerOffsetImage {
     width: 45%;
     height: 80vh;
-    // background: rgba(0, 150, 150, 0.4);
     background: url("../assets/square-header-image.jpg");
     background-size: cover;
     background-position: center center;
-    // transform: translateY(200);
     position: absolute;
     left: 0;
     bottom: -240px;
@@ -51,7 +49,7 @@
     .home .headerOffsetImage {
         position: static;
         width: 100%;
-        height: 200px;
+        height: 30vh;
         margin: 0 auto;
     }
 
@@ -89,6 +87,7 @@
     .headerTitle h1 {
         font-size: 3.5rem;
     }
+
     .home header h4 {
         font-size: 1.5rem;
     }

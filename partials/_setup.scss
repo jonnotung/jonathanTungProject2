@@ -79,8 +79,9 @@ input::placeholder {
     opacity: 1;
 }
 
-
-//common heading resizings
+//--------------------------------------------------
+//--------common text responsive resizings----------
+//--------------------------------------------------
 @media (max-width: 500px) {
     h3 {
         line-height: 40px;

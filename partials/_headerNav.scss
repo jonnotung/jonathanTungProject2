@@ -58,20 +58,15 @@ footer p {
         align-content: flex-start;
     }
 
+    //hide expanded nav
     nav ul {
         display: none;
     }
 
+    //show hamburger icon
     .hamburger {
         display: block;
         font-size: $subHeading;
-        // position: absolute;
-        // right: 50px;
-        // top: 25px;
-    }
-
-    nav h2 {
-        // display: none;
     }
 
 }

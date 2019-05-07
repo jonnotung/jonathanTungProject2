@@ -1,6 +1,6 @@
-//-----------------------------------------------
-// styles for homepage 'new adventures'section
-//----------------------------------------------
+//-------------------------------------------------------------------------
+// ----------------styles for homepage 'new adventures'section-------------
+//-------------------------------------------------------------------------
 
 .newAdventure {
     background: $camoGreen;
@@ -29,9 +29,6 @@
 .newAdventure img {
     width: 100%;
     transform: translate(7.5%, -7.5%);
-    // position: relative;
-    // top: -15px;
-    // right: -7%;
 }
 
 .newAdventure p {
@@ -43,9 +40,12 @@
     @include linkButton();
 }
 
+//-----------------------------------------------------------
+//--------media queries for resizing this section-------------
+//-----------------------------------------------------------
 
-//media queries for resizing this section
 @media (max-width: 950px) {
+    //reposition content
     .newAdventure .textSection,
     .newAdventure .imageSection {
         margin: 100px 0;
