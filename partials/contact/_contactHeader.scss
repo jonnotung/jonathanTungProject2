@@ -10,34 +10,47 @@
 }
 
 .contactUs h1 {
-    margin-top: 10%;
+    margin-top: 15%;
     margin-bottom: auto;
     color: $marigold;
 }
 
-
+//-------------------------------------
+//-----responsive media queries--------
+//-------------------------------------
 @media (max-width: 850px) {
     .contactUs h1 {
-        margin-top: 40%;
+        margin-top: 22%;
     }
 }
 
 //reposition h1 header
 @media (max-width: 650px) {
+    //resize heading font due to text wrapping
     .contactUs h1 {
         font-size: $heading;
         line-height: 35px;
+        font-size: 4rem;
+        text-align: center;
+        margin-top: 30%;
     }
 }
 
 @media (max-width: 550px) {
     .contactUs h1 {
-        font-size: 3.5rem;
+        margin-top: 40%;
     }
 }
 
-@media (max-width: 450px) {
+//-------------------------------
+//-----landscape phones----------
+//-------------------------------
+@media (max-height: 420px) {
+    .contactUs header {
+        height: 70vh;
+    }
+
     .contactUs h1 {
-        margin-top: 30%;
+        margin-top: 10%;
     }
 }

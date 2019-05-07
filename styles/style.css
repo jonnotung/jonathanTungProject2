@@ -1373,14 +1373,14 @@ aside ul {
 }
 
 .contactUs h1 {
-  margin-top: 10%;
+  margin-top: 15%;
   margin-bottom: auto;
   color: #ffc600;
 }
 
 @media (max-width: 850px) {
   .contactUs h1 {
-    margin-top: 40%;
+    margin-top: 22%;
   }
 }
 
@@ -1388,18 +1388,24 @@ aside ul {
   .contactUs h1 {
     font-size: 5.25rem;
     line-height: 35px;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 30%;
   }
 }
 
 @media (max-width: 550px) {
   .contactUs h1 {
-    font-size: 3.5rem;
+    margin-top: 40%;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-height: 420px) {
+  .contactUs header {
+    height: 70vh;
+  }
   .contactUs h1 {
-    margin-top: 30%;
+    margin-top: 10%;
   }
 }
 
@@ -1411,8 +1417,8 @@ aside ul {
 .formBackground {
   background: #ffc600;
   width: 66%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -webkit-transform: translateY(-30%);
+          transform: translateY(-30%);
   margin-bottom: -18%;
 }
 
@@ -1590,6 +1596,14 @@ input::placeholder {
     -webkit-transform: translateY(-30%);
             transform: translateY(-30%);
     margin-bottom: -60px;
+  }
+}
+
+@media (max-height: 420px) {
+  .formBackground {
+    -webkit-transform: translateY(-20%);
+            transform: translateY(-20%);
+    margin-bottom: -10%;
   }
 }
 /*# sourceMappingURL=style.css.map */
