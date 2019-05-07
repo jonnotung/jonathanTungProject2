@@ -57,7 +57,7 @@
 .contactSocialIcons {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
 }
 
 .contactSocialIcons a {
@@ -81,7 +81,7 @@ input::placeholder {
 }
 
 //media query to resize and reposition forms and footer
-@media (max-width: 1150px) {
+@media (max-width: 1000px) {
     .contactFormSection .innerWrapper {
         flex-direction: column;
     }
@@ -103,14 +103,9 @@ input::placeholder {
     .contactSocialIcons a {
         font-size: $logoFont;
     }
-}
 
-//stack input forms
-@media (max-width: 650px) {
-    .formBackground {
-        margin-bottom: -200px;
-    }
 
+    //stack input forms
     .contactFields {
         flex-direction: column;
         align-items: center;
@@ -123,6 +118,17 @@ input::placeholder {
 
     .contactUs textarea {
         margin-top: 25px;
+    }
+
+    .formBackground {
+        margin-bottom: -32%;
+    }
+}
+
+
+@media (max-width: 650px) {
+    .formBackground {
+        margin-bottom: -200px;
     }
 }
 

@@ -304,7 +304,7 @@ nav ul {
 }
 
 nav li {
-  width: 25%;
+  width: 20%;
 }
 
 nav a {
@@ -949,19 +949,19 @@ footer p {
   color: #ffc600;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 850px) {
   .blog header {
     height: 75vh;
   }
   .blog h1 {
-    margin: 50% auto auto auto;
+    margin: 40% auto auto auto;
   }
 }
 
 @media (max-width: 700px) {
   h1 {
     text-align: center;
-    margin: 20% 0 auto 0;
+    margin: 10% 0 auto 0;
   }
   .blog header {
     height: 60vh;
@@ -971,6 +971,9 @@ footer p {
 @media (max-width: 500px) {
   .blog header {
     height: 45vh;
+  }
+  .blog h1 {
+    margin: 35% auto auto auto;
   }
 }
 
@@ -1351,6 +1354,12 @@ h4 {
   }
 }
 
+@media (max-width: 550px) {
+  .contactUs h1 {
+    font-size: 3.5rem;
+  }
+}
+
 .contactFormSection {
   background: #1e140e;
   padding: 75px 0;
@@ -1441,7 +1450,7 @@ h4 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 50%;
+  width: 100%;
 }
 
 .contactSocialIcons a {
@@ -1481,7 +1490,7 @@ input::placeholder {
   opacity: 0.5;
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1000px) {
   .contactFormSection .innerWrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1502,12 +1511,6 @@ input::placeholder {
   .contactSocialIcons a {
     font-size: 2.075rem;
   }
-}
-
-@media (max-width: 650px) {
-  .formBackground {
-    margin-bottom: -200px;
-  }
   .contactFields {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1523,6 +1526,15 @@ input::placeholder {
   }
   .contactUs textarea {
     margin-top: 25px;
+  }
+  .formBackground {
+    margin-bottom: -32%;
+  }
+}
+
+@media (max-width: 650px) {
+  .formBackground {
+    margin-bottom: -200px;
   }
 }
 
