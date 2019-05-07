@@ -29,10 +29,9 @@
     @include textArea($camoGreen);
 }
 
-.makePost button {
-    margin-top: 25px;
-    width: 100%;
-    @include linkButton();
+.makePost textarea::placeholder,
+.makePost input::placeholder {
+    opacity: 1;
 }
 
 //-------------------------------------

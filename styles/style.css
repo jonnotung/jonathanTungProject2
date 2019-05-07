@@ -235,6 +235,60 @@ h3 {
 
 a {
   color: #fafffe;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #ffc600;
+}
+
+a:focus {
+  border: 3px solid #ffc600;
+}
+
+a.button {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a.button:hover {
+  color: #ffc600;
+}
+
+a.button:focus {
+  border: 3px solid #ffc600;
+}
+
+a.button:active {
+  background-color: #fafffe;
+  color: #262725;
+}
+
+button {
+  margin-top: 25px;
+  background: #555f02;
+  font-family: "Dokdo", cursive;
+  font-size: 2rem;
+  padding: 5px 10px;
+  font-weight: normal;
+  border: none;
+  color: #fafffe;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+button:hover {
+  color: #ffc600;
+}
+
+button:focus {
+  border: 3px solid #ffc600;
+}
+
+button:active {
+  background-color: #fafffe;
+  color: #262725;
 }
 
 textarea::-webkit-input-placeholder,
@@ -555,6 +609,14 @@ footer p {
 
 .gallery img {
   width: calc((100% / 3) - 30px);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.gallery img:active {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  z-index: 10;
 }
 
 @media (max-width: 600px) {
@@ -1328,16 +1390,24 @@ aside ul {
   color: #fafffe;
 }
 
-.makePost button {
-  margin-top: 25px;
-  width: 100%;
-  background: #555f02;
-  font-family: "Dokdo", cursive;
-  font-size: 2rem;
-  padding: 5px 10px;
-  font-weight: normal;
-  border: none;
-  color: #fafffe;
+.makePost textarea::-webkit-input-placeholder,
+.makePost input::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+.makePost textarea:-ms-input-placeholder,
+.makePost input:-ms-input-placeholder {
+  opacity: 1;
+}
+
+.makePost textarea::-ms-input-placeholder,
+.makePost input::-ms-input-placeholder {
+  opacity: 1;
+}
+
+.makePost textarea::placeholder,
+.makePost input::placeholder {
+  opacity: 1;
 }
 
 @media (max-width: 1100px) {
@@ -1481,17 +1551,6 @@ aside ul {
   color: #fafffe;
 }
 
-.contactUs button {
-  background: #555f02;
-  font-family: "Dokdo", cursive;
-  font-size: 2rem;
-  padding: 5px 10px;
-  font-weight: normal;
-  border: none;
-  color: #fafffe;
-  margin-top: 25px;
-}
-
 .contactSocialIcons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1505,6 +1564,12 @@ aside ul {
 .contactSocialIcons a {
   color: #ffc600;
   font-size: 1.5rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contactSocialIcons a:hover {
+  color: #fafffe;
 }
 
 .contactSidebar ul + p {
@@ -1518,25 +1583,25 @@ aside ul {
 textarea::-webkit-input-placeholder,
 input::-webkit-input-placeholder {
   color: #fafffe;
-  opacity: 0.5;
+  opacity: 0.75;
 }
 
 textarea:-ms-input-placeholder,
 input:-ms-input-placeholder {
   color: #fafffe;
-  opacity: 0.5;
+  opacity: 0.75;
 }
 
 textarea::-ms-input-placeholder,
 input::-ms-input-placeholder {
   color: #fafffe;
-  opacity: 0.5;
+  opacity: 0.75;
 }
 
 textarea::placeholder,
 input::placeholder {
   color: #fafffe;
-  opacity: 0.5;
+  opacity: 0.75;
 }
 
 @media (max-width: 1000px) {
@@ -1548,7 +1613,7 @@ input::placeholder {
   }
   .formBackground {
     width: 100%;
-    margin-bottom: -25%;
+    margin-bottom: -15%;
   }
   .contactSidebar {
     width: 100%;
@@ -1575,9 +1640,6 @@ input::placeholder {
   }
   .contactUs textarea {
     margin-top: 25px;
-  }
-  .formBackground {
-    margin-bottom: -32%;
   }
 }
 

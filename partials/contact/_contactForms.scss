@@ -50,11 +50,6 @@
     @include textArea($charcoal);
 }
 
-.contactUs button {
-    @include linkButton();
-    margin-top: 25px;
-}
-
 .contactSocialIcons {
     display: flex;
     justify-content: space-between;
@@ -64,6 +59,11 @@
 .contactSocialIcons a {
     color: $marigold;
     font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.contactSocialIcons a:hover {
+    color: $iceblue;
 }
 
 .contactSidebar ul + p {
@@ -78,7 +78,7 @@
 textarea::placeholder,
 input::placeholder {
     color: $iceblue;
-    opacity: 0.5;
+    opacity: 0.75;
 }
 
 //-------------------------------------
@@ -91,7 +91,7 @@ input::placeholder {
 
     .formBackground {
         width: 100%;
-        margin-bottom: -25%;
+        margin-bottom: -15%;
     }
 
     .contactSidebar {
@@ -120,10 +120,6 @@ input::placeholder {
 
     .contactUs textarea {
         margin-top: 25px;
-    }
-
-    .formBackground {
-        margin-bottom: -32%;
     }
 }
 
