@@ -79,3 +79,56 @@ input::placeholder {
     color: $iceblue;
     opacity: 0.5;
 }
+
+//media query to resize and reposition forms and footer
+@media (max-width: 1150px) {
+    .contactFormSection .innerWrapper {
+        flex-direction: column;
+    }
+
+    .formBackground {
+        width: 100%;
+        margin-bottom: -25%;
+    }
+
+    .contactSidebar {
+        width: 100%;
+    }
+
+    .contactSocialIcons {
+        width: 100%;
+        padding: 0 50px;
+    }
+
+    .contactSocialIcons a {
+        font-size: $logoFont;
+    }
+}
+
+//stack input forms
+@media (max-width: 650px) {
+    .formBackground {
+        margin-bottom: -200px;
+    }
+
+    .contactFields {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactUs input[type="text"],
+    .contactUs input[type="email"] {
+        width: 100%;
+    }
+
+    .contactUs textarea {
+        margin-top: 25px;
+    }
+}
+
+//reduce form/background offset
+@media (max-width: 450px) {
+    .contactUs form {
+        transform: translate(-7px, -7px);
+    }
+}

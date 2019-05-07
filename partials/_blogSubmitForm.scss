@@ -10,7 +10,7 @@
     width: 60%;
 }
 
-.makePost fieldset {
+.userInfo {
     display: flex;
     justify-content: space-between;
 }
@@ -33,4 +33,32 @@
     margin-top: 25px;
     width: 100%;
     @include linkButton();
+}
+
+//media query to resize content
+@media (max-width: 1100px) {
+    .makePost form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 750px) {
+    .userInfo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .makePost input[type="text"],
+    .makePost input[type="email"] {
+        width: 100%;
+    }
+
+    .makePost textarea {
+        margin-top: 25px;
+    }
+}
+
+//media queries to reposition and resize form/footer
+@media (max-width: 1100px) {
+    
 }
