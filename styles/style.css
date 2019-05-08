@@ -1176,7 +1176,7 @@ aside ul {
   content: "•";
   font-weight: bold;
   color: #ffc600;
-  margin: 0 10px;
+  margin-right: 5px;
 }
 
 .blogPostSection h5 {
@@ -1193,6 +1193,10 @@ aside ul {
   .blog article {
     -webkit-transform: translateY(-5%);
             transform: translateY(-5%);
+  }
+  aside p,
+  aside ul {
+    margin-left: 15px;
   }
 }
 

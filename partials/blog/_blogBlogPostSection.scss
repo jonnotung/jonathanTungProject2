@@ -37,6 +37,7 @@
 .blog article {
     width: 60%;
     padding-bottom: 50px;
+    //partial border around post text
     border: 4px $mudGreen solid;
     border-top: none;
     border-left: none;
@@ -98,13 +99,13 @@ aside ul {
     content: "•";
     font-weight: bold;
     color: $marigold;
-    margin: 0 10px;
+    margin-right: 5px;
 }
 
 .blogPostSection h5 {
     font-family: $dokdo;
     color: $iceblue;
-    font-size: $sectionHeadings;
+    font-size: $sectionHeadings; 
     margin: 15px 0 20px 25px;
 }
 
@@ -120,6 +121,12 @@ aside ul {
     
     .blog article {
         transform: translateY(-5%);
+    }
+
+    //reduce margin on aside to reduce text wrapping
+    aside p,
+    aside ul {
+        margin-left: 15px;
     }
 }
 
