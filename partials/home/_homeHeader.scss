@@ -5,7 +5,7 @@
 .home header {
     background: url("../assets/home-image-1.jpg");
     background-size: cover;
-    background-position: center center;
+    background-position: 90% center;
     height: 100vh;
 }
 
@@ -56,7 +56,6 @@
     //reposition background image
     .home header {
         height: 75vh;
-        background-position-x: 70%;
     }
 
     //reposition h1
@@ -75,7 +74,6 @@
     //recenter heading and background image
     .home header {
         height: 60vh;
-        background-position-x: 70%;
     }
 
     .headerTitle {
@@ -96,7 +94,6 @@
     //recenter background image
     .home header {
         height: 45vh;
-        background-position-x: 90%;
     }
 }
 

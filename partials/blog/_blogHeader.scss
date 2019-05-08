@@ -10,7 +10,7 @@
     background: url(../assets/blog-image-1.jpg);
     background-size: cover;
     background-position: center center;
-    height: 75vh;  
+    height: 60vh;  
 }
 
 .blog h1 {
@@ -24,11 +24,7 @@
 
 @media (max-width: 850px) {
 
-    //resize to recenter header background image
-    .blog header {
-        height: 75vh;
-    }
-
+    //recenter header 
     .blog h1 {
         margin: 40% auto auto auto;
     }
@@ -38,22 +34,19 @@
     //reposition  h1 header
     .blog h1 {
         text-align: center;
-        margin: 10% 0 auto 0;
+        margin: 25% 0 auto 0;
     }
 
     .blog header {
-        height: 60vh;
+        height: 55vh;
     }
 }
 
 @media (max-width: 500px) {
     .blog header {
-        height: 45vh;
+        height: 50vh;
     }
 
-    .blog h1 {
-        margin: 25% auto auto auto;
-    }
 }
 
 //-------------------------------

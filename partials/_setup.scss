@@ -122,6 +122,11 @@ button:active {
     background-color: $iceblue;
     color: $charcoal;
 }
+
+input:focus { 
+    border: $focus;
+}
+
 // common input field placeholder styling
 textarea::placeholder,
 input::placeholder {
