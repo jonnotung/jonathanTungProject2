@@ -1028,20 +1028,13 @@ footer p {
 }
 
 .blog h1 {
-  margin-top: 20%;
+  margin-top: 10vh;
   color: #ffc600;
-}
-
-@media (max-width: 850px) {
-  .blog h1 {
-    margin: 40% auto auto auto;
-  }
 }
 
 @media (max-width: 700px) {
   .blog h1 {
     text-align: center;
-    margin: 25% 0 auto 0;
   }
   .blog header {
     height: 55vh;
@@ -1054,21 +1047,15 @@ footer p {
   }
 }
 
-@media (max-height: 420px) {
-  .blog h1 {
-    margin: 0;
-  }
-}
-
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .blog h1 {
-    margin-top: 10%;
+    margin-top: 10vh;
   }
 }
 
 @media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (orientation: landscape) {
   .blog h1 {
-    margin-top: 10%;
+    margin-top: 10vh;
   }
 }
 
@@ -1466,15 +1453,9 @@ aside ul {
 }
 
 .contactUs h1 {
-  margin-top: 17.5%;
+  margin-top: 10vh;
   margin-bottom: auto;
   color: #ffc600;
-}
-
-@media (max-width: 850px) {
-  .contactUs h1 {
-    margin-top: 22%;
-  }
 }
 
 @media (max-width: 650px) {
@@ -1483,22 +1464,18 @@ aside ul {
     line-height: 35px;
     font-size: 4rem;
     text-align: center;
-    margin-top: 30%;
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 350px) {
   .contactUs h1 {
-    margin-top: 17.5%;
+    margin-top: 5vh;
   }
 }
 
 @media (max-height: 420px) {
   .contactUs header {
     height: 70vh;
-  }
-  .contactUs h1 {
-    margin-top: 10%;
   }
 }
 
